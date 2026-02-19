@@ -1,11 +1,13 @@
 import React from 'react';
 
+// This component intentionally contains a syntax error
 function App() {
-  // Intentionally broken: missing return statement
-  <div>
-    <h1>Hello, React!</h1>
-    <p>This app is intentionally broken.</p>
-  </div>
+  return (
+    <div>
+      <h1>Broken React App</h1>
+      <p>This app will not build due to a syntax error.
+    </div>
+  ); // Missing closing </p> tag and parenthesis
 }
 
 export default App;
